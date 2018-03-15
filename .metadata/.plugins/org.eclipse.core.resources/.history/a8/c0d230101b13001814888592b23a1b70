@@ -1,0 +1,8 @@
+
+<suite name="Testing Scenarios">
+  <test name="KeyWordDriven Testing">
+    <classes>
+      <class name="com.KeyWord.NewToursLoginTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite>

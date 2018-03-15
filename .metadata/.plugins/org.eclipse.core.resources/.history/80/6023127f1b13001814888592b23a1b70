@@ -1,0 +1,17 @@
+
+<suite name="Testing Scenarios">
+
+
+  <test name="DataDriven Testing">
+    <classes>
+      <class name="com.DataDriven.NewTours_NewUserRegistrations"/>
+    </classes>
+  </test> <!-- Default test -->
+
+
+  <test name="KeyWordDriven Testing">
+    <classes>
+      <class name="com.KeyWord.NewToursLoginTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite>

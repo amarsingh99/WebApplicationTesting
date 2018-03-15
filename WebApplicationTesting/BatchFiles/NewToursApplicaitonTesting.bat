@@ -1,0 +1,1 @@
+java -cp "C:\Users\amarpreet\Desktop\AmarpreetSelenium\WebApplicationTesting\library/*";"C:\Users\amarpreet\Desktop\AmarpreetSelenium\WebApplicationTesting\bin" org.testng.TestNG "C:\Users\amarpreet\Desktop\AmarpreetSelenium\WebApplicationTesting\TestingScenarios.xml"

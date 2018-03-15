@@ -1,0 +1,28 @@
+package ifcondition;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class IfconditionandGettingURlandTitle 
+
+{
+
+	public static void main(String[] args) 
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+        driver.get("https://www.google.com/gmail/about/");
+        
+        System.out.println(driver.getTitle());
+        System.out.println(driver.getCurrentUrl());
+        
+       String ExpectedTitle = "the gmail";
+      
+       System.out.println();
+       
+       String actualtitle = driver.getTitle();
+        
+	}
+
+}
